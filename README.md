@@ -58,7 +58,6 @@ conda activate subspace
 ## Inference
 ```
 ### example for Motion deblurring task
-#### DMILO
 python pipeline.py --dataset "ffhq" --task "motion_deblur" -n 5 --cuda 0
 ```
 
